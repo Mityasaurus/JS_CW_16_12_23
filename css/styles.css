@@ -80,3 +80,31 @@ body {
   font-size: 36px;
   font-weight: 700;
 }
+header {
+  width: 85%;
+  margin: 0auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo p {
+  font-size: 18px;
+  font-weight: 800;
+}
+.logo img {
+  margin-right: 20px;
+}
+nav,
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  margin-right: 20px;
+}
